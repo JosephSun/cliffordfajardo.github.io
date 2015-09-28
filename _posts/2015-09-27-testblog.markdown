@@ -7,6 +7,37 @@ description: Thriller Comedy Horror
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
+
+#h1
+##h2
+###h3
+####h4
+####h5
+###### h6
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+> Blockquotes are vert handy when doing tutorials
+
+___
+
+1. First ordered list item
+
+2. Seconf ordered item
+
+* unordered list
+
+* unordered list
 Jekyll also offers powerful support for code snippets:
 
 {% highlight javascript %}

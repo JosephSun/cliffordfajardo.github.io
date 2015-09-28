@@ -105,14 +105,14 @@
   opacity: 0.7;
 }
 
-/*.highlight pre code * {
-  white-space: nowrap;    // this sets all children inside to nowrap
-}*/
-
-/*.highlight pre {
-  overflow-x: auto;       // this sets the scrolling in x
-}*/
+/*Horizontal scrolling*/
+.highlight pre code * {
+  white-space: nowrap;  /* this sets all children inside to nowrap*/
+}
+.highlight pre {
+  overflow-x: auto;     /* this sets the scrolling in x */
+}
 
 .highlight pre code {
-  white-space: pre;       // forces <code> to respect <pre> formatting
+  white-space: pre;     /*forces <code> to respect <pre> formatting */
 }
