@@ -1,7 +1,7 @@
 ---
 title:  "What is a JavaScript Library?"
 date:   2015-09-27 10:18:00
-description: A brief composition about what a JavaScript Library is using examples such
+description: Exploring what libraries are by example
 ---
 
 So you've heard of javaScript libraries such as Underscore, Lodash, and jQuery.
@@ -41,7 +41,7 @@ helper functions inside the underscore library.
 
   <!-- Importing underscore. This is just a file with prebuilt functions. -->
   <script src="underscore.js"></script>
-  <!-- Now I have access inside my javaScript file to underscore's 
+  <!-- Now I have access inside my javaScript file to underscore's
        function's, since I loaded underscore above my file -->
   <script src="myOwnfile.js"></script>
 </body>
@@ -53,7 +53,7 @@ The eye opening moment for me was when I realized that a lot of libraries store 
 inside objects as methods (some libraries vary). One of the reasons why library creators store their
 functions inside objects is to avoid creating global variables. By tucking in functions and variables
 inside of objects, they only exist inside that object, so you don't have to worry about accidentally
-overriding it in your own code. 
+overriding it in your own code.
 
 
 Lets take a look at the underscore utility library
@@ -74,7 +74,7 @@ _.flatten = function(array){
 {% endhighlight %}
 
 
-Remember, since I loaded the underscore.js file first inside my HTML file, I now have 
+Remember, since I loaded the underscore.js file first inside my HTML file, I now have
 access to underscore's prebuilt functions in my own html file. The best part about
 using a library is: not having to compose the functions we use from the library from scratch - yay.
 
@@ -94,24 +94,24 @@ var flatArray = _.flatten(multiNestedArray); // [1,2,3,4,5,6]
 ### Libraries often provide a simple API
 Though you can do anything a javaScript library can with your own javaScript,
 some of the advantages of using libraries is that they make your code less dense,
-often more readable and offer a much more intuitive API's than the native API's 
-available to you. 
+often more readable and offer a much more intuitive API's than the native API's
+available to you.
 
 {% highlight javascript %}
-// *** Vanilla JavaScript using native DOM API *** 
-// Finding a class(es): 
+// *** Vanilla JavaScript using native DOM API ***
+// Finding a class(es):
 document.getElementByClassName('myClass');
 // Finding an ID:
 document.getElementById('myID')
-// Finding an element(s): 
+// Finding an element(s):
 document.getElementByTagName('h1')
 //Changing a text on an element with a class of title
 var newTitleText = document.getElementByClass('title')[0].nodeValue('hello');
 
 
 
-// *** Using jQuery's API *** 
-/* Somewhere in the jQuery file there is a '$' function with lots of code that we 
+// *** Using jQuery's API ***
+/* Somewhere in the jQuery file there is a '$' function with lots of code that we
    didn't have to write. But hey, this $ function does so much with little code!*/
 // Finding a class(es):
 $('.myTitle')
@@ -132,6 +132,3 @@ For the most part, if your application is only needing a few helper functions,
 it's perhaps better to create the functions from scratch or find the pure javascript
 solutions online, than to bring in an entire library into your project just for two
 or three functions that you needed.
-
-
-
