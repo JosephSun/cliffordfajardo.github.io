@@ -1,5 +1,5 @@
 name: Clifford Fajardo
-description: "Web dev, sharing ideas, and lover of Bufallo Wild Wings"
+description: "Web dev, sharing ideas, and lover of Buffalo Wild Wings"
 meta_description: "blogging about web development, javascript, github, node, html, css, sass, scss and much more"
 
 aboutPage: true
@@ -15,7 +15,7 @@ disqus: true
 disqus_shortname: 'cliffordfajardo'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            'archive/'
 author:         'Clifford Fajardo'
 authorTwitter:  'cliffordfajard0'
 

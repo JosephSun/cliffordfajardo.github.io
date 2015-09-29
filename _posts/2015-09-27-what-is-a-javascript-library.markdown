@@ -7,7 +7,7 @@ description: Exploring what libraries are by example
 So you've heard of javaScript libraries such as Underscore, Lodash, and jQuery.
 But have you ever wondered how they actually worked behind the scenes? Well, the good news is javaScript libraries aren't so magical after all and you'll see why, soon enough.
 
-### So what is a libary anyways?
+### So what is a library anyways?
 In programming, a library generally refers to a file(s) full of code that some other
 programmer(s) has already made for other developers convenience.
 
@@ -24,7 +24,7 @@ available to you.
 
 
 
-### Libraries behind the secnes
+### Libraries behind the scenes
 Imagine that you downloaded the underscore js library and you've imported it into your
 HTML page. Nice, now you have access in your own javaScript file to a bunch of the nice
 helper functions inside the underscore library.
