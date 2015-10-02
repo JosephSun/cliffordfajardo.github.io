@@ -27,7 +27,7 @@ Before we install Gulp we need to make sure we have Node.js and NPM installed on
 
 
 ##Getting started with Gulp
-To help you get started with Gulp, I've created a project folder you can download [here]() that you can use to follow along with this tutorial. Now that you have the **my-website** folder downloaded, let's begin!
+To help you get started with Gulp, I've created a project folder you can download [here](https://github.com/cliffordfajardo/gulp-tutorial/archive/master.zip) that you can use to follow along with this tutorial. Now that you have the **my-website** folder downloaded, let's begin!
 
 
 ###Getting Grunt installed
