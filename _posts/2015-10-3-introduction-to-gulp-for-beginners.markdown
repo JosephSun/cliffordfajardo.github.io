@@ -1,7 +1,7 @@
 ---
 title:  "Introduction to Gulp JS"
 description: "A step by step tutorial for beginners learning Gulp on Mac"
-## date: 2015-10-3 
+## date: 2015-10-3
 ---
 
 
@@ -22,7 +22,7 @@ Doing all of those tasks manually can be cumbersome. Let me introduce you to Gul
 
 
 ## Prerequisites
-Before we install Gulp we need to make sure we have Node.js and NPM installed on our system. To check if you have Node installed, simply open your terminal application and enter `node -v`. If you don't have Node installed, we'll need to install to other applications on our Mac -- Xcode and Homebrew. Installing these two applications should only take a few minutes. To install these two applications I highly recommend you check out this short reading called ["How to Install Node.js and NPM on a Mac"](http://blog.teamtreehouse.com/install-node-js-npm-mac). 
+Before we install Gulp we need to make sure we have Node.js and NPM installed on our system. To check if you have Node installed, simply open your terminal application and enter `node -v`. If you don't have Node installed, we'll need to install to other applications on our Mac -- Xcode and Homebrew. Installing these two applications should only take a few minutes. To install these two applications I highly recommend you check out this short reading called ["How to Install Node.js and NPM on a Mac"](http://blog.teamtreehouse.com/install-node-js-npm-mac).
 
 
 
@@ -37,13 +37,16 @@ Now, if you look into your folder, you should have a package.json file.
 ![After npm init](/assets/images/posts/01gulp-json-file.png)
 
 
-Next, we want to run in our terminal:
+Next, we want to run the next two commands in our terminal:
+{% highlight bash %}
+npm install -g gulp
+{% endhighlight %}
 {% highlight bash %}
 npm install gulp --save-dev
-
-#This tells npm to add gulp to our project's development dependencies.
-#Dependencies lets developers know which Node modules should be installed with your project.
 {% endhighlight %}
+
+We just told to install gulp globally and to add it to our project's development dependencies. Dependencies lets developers know which node modules should be installed with your project.
+
 
 Now in if you look inside your package.json file, you should see something like this:
 {% highlight json %}
@@ -66,51 +69,36 @@ Now in if you look inside your package.json file, you should see something like 
 **NOTE:** everytime you install a new package (like we did with gulp), your package.json's dependencies list will be updated.
 
 
-
-
-
-Next let's install gulp globally on our system. The reason we installed globally is so that it's available system wide. The system wide installation of gulp will manage the local dependencies of gulp in each of your projects.
-{% highlight bash %}
-npm install -g gulp
-{% endhighlight %}
-
 Lastly, we'll need to create a filed called **gulpfile.js**  in our project root. This file will contain the instructions we want gulp to do.
 
-##A Brief Overview of Gulp
-Gulp is a streaming build system. It’s streaming nature is what allows it to pipe and pass around the data being manipulated or used by it’s plugins. The plugins are intended to only do one job each, so it’s not uncommon to pass a singular file through multiple plugins.
-
-The gulp api is incredibly light containing 4 top level functions. They are:
+##A Getting started with Gulp
+To use Gulp you just need to know four things:
 
 >- gulp.task
 >- gulp.src
 >- gulp.dest
 >- gulp.watch
 
-`gulp.task` defines your tasks. Its arguments are *name*, *deps* and *fn*. Where name is a string, deps is an array of task names, and fn is the function that performs your task. Deps is optional so gulp.task in it’s two forms are:
+`gulp.task` defines your task. Its arguments are *name* (your task anem), *deps* (optional) and *fn* (the function that does your task). Here is an example:
 
 {% highlight javascript %}
 gulp.task('mytask', function() {
-  //do stuff
-});
-
-gulp.task('dependenttask', ['mytask'], function() {
-  //do stuff after 'mytask' is done.
+  console.log('gulp is running');
 });
 {% endhighlight %}
 
-`gulp.src` points to the files we want to use. It’s parameters are globs and an optional options object. It uses `.pipe` for chaining it’s output into other plugins.
+`gulp.src` points to the files we want to use. It uses `.pipe` for chaining it’s output into other plugins.
 
 `gulp.dest` points to the output folder we want to write files to. `gulp.src` and `gulp.dest` used to simply copy files looks like:
 
 {% highlight javascript %}
-gulp.task('copyHtml', function() {
-  // copy any html files in source/ to public/
-  gulp.src('source/*.html')
-  .pipe(gulp.dest('public'));
+gulp.task('copyJS', function() {
+  // copy any js files in source to our production folder
+  gulp.src('source/*.js')
+  .pipe(gulp.dest('production')); //< --- this is relative to our gulp file which is in the root.
 });
 {% endhighlight %}
 
-`gulp.watch` like `gulp.task` has two main forms. Both of which return an EventEmitter that emits change events. The first of which takes a glob, an optional options object, and an array of tasks as it’s parameters.
 
 ##Creating our first task with gulp
 For our first task we'll simply log to our console that Gulp is running. Inside your **gulpfile.js** we'll put:
@@ -120,7 +108,7 @@ For our first task we'll simply log to our console that Gulp is running. Inside 
 //Here we're loading the gulp module
 var gulp = require('gulp');
 
-//creating our task named test 
+//creating our task named test
 gulp.task('test', function(){
   console.log("Gulp is running");
 })
@@ -156,7 +144,7 @@ gulp.task('concatScripts', function(){
     'js/jquery.js',
      'js/main.js'
   ])
-  .pipe(concat("app.js")) // the output file 
+  .pipe(concat("app.js")) // the output file
   .pipe(gulp.dest('js'))  // new file will go to our js folder
 
 });
@@ -188,8 +176,8 @@ gulp.task('concatScripts', function(){
     'js/jquery.js',
      'js/main.js'
   ])
-  .pipe(concat("app.js")) 
-  .pipe(gulp.dest('js')) 
+  .pipe(concat("app.js"))
+  .pipe(gulp.dest('js'))
 });
 
 //Task: Minify javascript file
@@ -216,8 +204,8 @@ gulp.task('concatScripts', function(){
     'js/jquery.js',
      'js/main.js'
   ])
-  .pipe(concat("app.js")) 
-  .pipe(gulp.dest('js')) 
+  .pipe(concat("app.js"))
+  .pipe(gulp.dest('js'))
 });
 
 //Task: Minify javascript file
@@ -281,4 +269,3 @@ This last task is very simple, we use the `.watch()` method. We pass in the path
 
 ### Gulp resources:
 - [Gulp video playlist](https://www.youtube.com/playlist?list=PLv1YUP7gO_viROuRcGsDCNM-FUVgMYb_G)
-
