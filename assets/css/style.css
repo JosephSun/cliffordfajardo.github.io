@@ -185,8 +185,27 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul 	{ margin:0; padding:0; }
-li	{ list-style-type:circle; list-style-position:inside; }
+/*Adding support for ordered lists*/
+ul, ol	{ margin:0; padding:0; }
+/*Keep indent for second and so on lines in-ordered-lists*/
+li	{ 
+	list-style-position:inside;
+	text-indent: -1em;
+	padding-left: 1em;
+
+}
+li:last-child{
+	margin-bottom: 30px;
+}
+li:first-child {
+	margin-top: 30px;
+}
+p code, li code {
+	background: #272b2d;
+	padding: 3px 5px;
+	border-radius: 5px;
+}
+
 
 /* Line Height */
 #post-body, p {
@@ -194,8 +213,7 @@ li	{ list-style-type:circle; list-style-position:inside; }
 	color: #b2b9be;
 }
 
-b, strong { font-weight: 500;
-  color: #1E2025; }
+b, strong { font-weight: 700; color: #b2b9be; }
 em, i { font-style: italic; }
 
 #title {
@@ -632,6 +650,14 @@ h2.month {
   border-radius: 4px;
   margin-left: 2px;
 }
+
+
+#post-body li strong{
+	font-weight: 700;
+	color: #b2b9be;
+}
+
+
 
 /* Media Queries */
 @media screen and (max-width: 540px) {
