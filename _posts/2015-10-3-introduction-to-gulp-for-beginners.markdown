@@ -79,7 +79,7 @@ To use Gulp you just need to know four things:
 >- gulp.dest
 >- gulp.watch
 
-`gulp.task` defines your task. Its arguments are *name* (your task anem), *deps* (optional) and *fn* (the function that does your task). Here is an example:
+`gulp.task` defines your task. Its arguments are *name* (your task name), *deps* (optional) and *fn* (the function that does your task). Here is an example:
 
 {% highlight javascript %}
 gulp.task('mytask', function() {
@@ -87,15 +87,15 @@ gulp.task('mytask', function() {
 });
 {% endhighlight %}
 
-`gulp.src` points to the files we want to use. It uses `.pipe` for chaining it’s output into other plugins.
+`gulp.src` points to the files we want to use. It uses `.pipe` for connecting it’s output into other plugins.
 
-`gulp.dest` points to the output folder we want to write files to. `gulp.src` and `gulp.dest` used to simply copy files looks like:
+`gulp.dest` points to the destination folder we want to write files to. Here is a simple example of `gulp.src` and `gulp.dest` in action:
 
 {% highlight javascript %}
 gulp.task('copyJS', function() {
   // copy any js files in source to our production folder
   gulp.src('source/*.js')
-  .pipe(gulp.dest('production')); //< --- this is relative to our gulp file which is in the root.
+  .pipe(gulp.dest('production')); //<--- this is relative to our gulp file which is in the root.
 });
 {% endhighlight %}
 
