@@ -11,8 +11,6 @@ on Mac, then Alfred should feel very familiar to you. Alfred is an application a
 steroids!
 
 
-Opening a folder or app, then quiting it.
-
 
 Opening a file or folder on my computer in Sublime Text:
 ![events-0](/assets/images/posts/003m.gif)
