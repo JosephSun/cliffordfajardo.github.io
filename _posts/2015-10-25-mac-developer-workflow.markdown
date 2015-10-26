@@ -18,6 +18,9 @@ Opening a file or folder on my computer in Sublime Text:
 Finding documentation on a web development topic:
 ![events-0](/assets/images/posts/004m.gif)
 
+Find a folder via search & open it in the terminal
+![events-0](/assets/images/posts/0045m.gif)
+
 Opening selected folder in Finder inside Terminal, then from terminal to Finder:
 ![events-0](/assets/images/posts/005m.gif)
 
