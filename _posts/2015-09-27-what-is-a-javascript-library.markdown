@@ -15,7 +15,7 @@ programmer(s) has already made for other developers convenience.
 In short, libraries make our lives as developers easier and help us get started with our projects
 much faster. Other great reasons reasons to use libraries are:
 
->- generally the code in libraries have been battle-tested in development so you know it's reliable.
+>- generally the code in libraries have been battle-tested in development so you know it's reliable
 >- the code has been tested to work across multiple browsers and platforms
 >- some library's API (the way you interact with the code) is more user friendly than exisiting native methods
 available to you.
