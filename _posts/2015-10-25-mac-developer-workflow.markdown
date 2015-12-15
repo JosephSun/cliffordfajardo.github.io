@@ -8,7 +8,7 @@ description: A few of my Mac productivity workflows.
 ##Alfred App
 Alfred app is without a doubt my most used and favorite application on Mac. If you've spotlight search
 on Mac, then Alfred should feel very familiar to you. Alfred is an application and task launcher on
-steroids!
+steroids
 
 
 
