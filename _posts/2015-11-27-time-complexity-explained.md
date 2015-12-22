@@ -6,7 +6,7 @@ description: A brief introduction of time complexity and Big-O with examples for
 
 Time complexity. I remember the first time I heard those words and thought "yikes, that's sounds complicated".
 Fortunately, time complexity isn't as difficult to understand as the word makes it seem. In this blog post
-I hope to explain, with examples, just enough about time complexity to help you start thinking about your
+I hope to explain with examples just enough about time complexity to help you start thinking about your
 code in a new way and seeing the importance it has in software engineering.
 
 
@@ -15,9 +15,9 @@ Learning about time complexity helps us better understand and improve the effici
 
 ### Big O notation:
 When talking about time complexity, you might also hear the term Big O or Big O notation.
-Big O notation simply refers to the measure of the execution time of an algorithm. Under the term Big O, you have
-have specific terms that describe the measure of your algorithm. You might here an engineer say "I just optimized my quadratic time function,
-to run at linear." Here are some of types of the Big-O notations we'll be learning about (which are also the most common):
+Big O notation simply refers to the measure of the execution time of an algorithm. Also, under the term Big O, you have
+have specific terms that describe the how long an algorithm takes to execute. You might here an engineer say "I just optimized my quadratic time function,
+to run at linear time." Here are some of types of the Big-O notations we'll be learning about (which are also the most common):
 
 - **O(1)**  ----- Constant time
 - **O(n)**  ----- Linear time
@@ -78,9 +78,10 @@ loopTheList(bigList);    // 500
 
 ### Logarithmic: O(log n)
 an operation is said to run in logarithmic time if the time execution grows at a rate less than
-linear.
+linear. Here is an example of logarithmic time:
 
 ```js
+//This function divides the number by 2 every iteration of the while-loop
 function logarithmic(number){
   var numberOfIterations = 0;
   while( number > 1){
