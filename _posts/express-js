@@ -1,0 +1,22 @@
+---
+title:  "Express JS"
+description: 
+## date: 2015-10-1
+---
+
+
+
+{% highlight javascript %}
+var express = require('express');
+
+var app = express();
+
+app.get('/', function(req, res){
+  response.send('hello world')
+})
+
+
+//sets up development server
+app.listen(3000);
+
+{% endhighlight %}
