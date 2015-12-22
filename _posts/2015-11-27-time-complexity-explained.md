@@ -1,6 +1,6 @@
 ---
 title:  "What is Time Complexity & Why is it Important?"
-description: A brief introduction of time complexity with examples for new programmers and software engineers.
+description: A brief introduction of time complexity and Big-O with examples for software engineers and new programmers.
 ## date: 2015-12-21
 ---
 
