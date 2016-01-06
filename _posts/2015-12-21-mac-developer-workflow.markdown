@@ -1,13 +1,13 @@
 ---
 title:  "Mac Developer Productivity Workflow"
-description: A few of my Mac productivity workflows.
-## date: 2015-10-25
+date: 2015-12-21
+description: A few of my Alfred programming productivity workflows in action.
 ---
 
 
 ##Alfred App
-[Alfred app](https://www.alfredapp.com/) for Mac is without a doubt my most used and favorite application on Mac. If you've used spotlight search on Mac, then Alfred should feel very familiar to you. Alfred is an application and task launcher on
-steroids! Below are some of the tasks I frequently do, that have been automated with Alfred.
+[Alfred app](https://www.alfredapp.com/) for Mac is without a doubt my most used and favorite application on Mac. If you've used spotlight search on Mac then Alfred should feel very familiar to you. In essence, Alfred is a free application task launcher on
+steroids! Below are some of the tasks I frequently do that have been automated with Alfred.
 
 
 
@@ -39,7 +39,7 @@ Searches for Youtube, Amazon, Linkedin, Twitter, Google..and a lot more:
 ![events-0](/assets/images/posts/009m.gif)
 
 
-According my Alfred App, since May 20, 2015 I've launched the Application 4020 times. If on average each task I didn't do on Alfred takes 5 seconds, then I have saved over 350 minutes (being very conservative) worth of keystrokes since in the past 5 months.
+According my Alfred App, since May 20, 2015 I've launched the Application 4020 times. If on average each task I didn't do on Alfred takes 5 seconds then I have saved over 350 minutes (being very conservative) worth of keystrokes since in the past 5 months.
 
 Stuff I didn't cover:
 
