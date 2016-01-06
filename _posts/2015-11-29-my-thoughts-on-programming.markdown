@@ -1,7 +1,7 @@
 ---
 title:  "Thoughts on Programming"
+date: 2015-11-29
 description: My observations about programming
-## date: 2015-11-2
 ---
 
 Below are some of the lessons I've learned over the past few months as a software engineer.
@@ -9,7 +9,7 @@ Below are some of the lessons I've learned over the past few months as a softwar
 ### Takeaways
 - Software is created by humans, so when software breaks be empathetic and calm.
 
-- Many times you need to implement naive solution to grasp a problem then optimize later.
+- Many times you need to implement naive solution to grasp a problem, then optimize for performance.
 - Google, StackOverflow, and blogs are your best friends!
 - Just because I'm not into x category of programming doesn't mean I'm a bad programmer. Some people excel in the front end, others in the backend, others enjoy working on databases and the list goes on.
 - Separating tasks into smaller chunks helps my mind process things better.

@@ -1,6 +1,6 @@
 ---
 title:  "Data Structures in JavaScript Part 1: Stack & Queues"
-date:   2015-12-12 10:18:00
+date:   2015-11-15 10:18:00
 description: Exploring data structures in javascript
 ---
 
