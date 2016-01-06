@@ -1,6 +1,6 @@
 ---
 title:  "Data Structures in JavaScript Part 2: Binary Search Tree"
-date:   2015-12-19
+date:   2015-11-21
 description: Exploring data structures in javascript
 ---
 
@@ -14,6 +14,11 @@ Links to other posts in series:
 - LinkedList (coming soon)
 - HashTable (coming soon)
 - Sets (Coming soon)
+
+### What is a Binary Search Tree (BST)?
+A binary search tree, also known as an ordered binary tree, is a node-based data structure in which each node has no more than two child nodes. Each child must either be a leaf node or the root of another binary search tree.
+<img src="http://programminggeeks.com/wp-content/uploads/2014/01/nodes-in-binary-search-tree.png">
+
 
 Methods:
 - search
