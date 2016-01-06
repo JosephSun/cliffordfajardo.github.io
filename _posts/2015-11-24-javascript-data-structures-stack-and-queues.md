@@ -7,6 +7,8 @@ description: Exploring data structures in javascript
 ## Introduction
 This a part one of series of blog posts intended to cover common computer science data structures in JavaScript. Why JavaScript? Frankly, most data structures are taught in Java, C++, Python but seldom in JavaScript.
 
+Links to other posts in series:
+
 - Stack and Queues
 - Tree (coming soon)
 - Binary Search Tree (coming soon)
@@ -190,3 +192,6 @@ Getting the size:
 myQueue.size()
 //recall size is end - start -----> 2-1 = 1
 ```
+
+### Additional Resources:
+[Video on Stacks & Queues](https://www.youtube.com/watch?v=idrrIMXXeHM)

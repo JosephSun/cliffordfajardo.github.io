@@ -134,7 +134,7 @@ When i is 2, the inner for loop will run 3 operations inside, then i becomes 3 a
 */
 ```
 
-### Time Complexity resources
+### Additional Resources:
 
 - [Big O Cheat Sheet](http://bigocheatsheet.com/)
 - [Time Complexity by Codality](https://codility.com)
