@@ -1,7 +1,7 @@
 ---
-title:  "What is a JavaScript Library?"
+title:  "JavaScript Libraries Explained"
 date:   2015-09-27 10:18:00
-description: Exploring what libraries are by example
+description:
 ---
 
 So you've heard of javaScript libraries such as Underscore, Lodash, and jQuery.

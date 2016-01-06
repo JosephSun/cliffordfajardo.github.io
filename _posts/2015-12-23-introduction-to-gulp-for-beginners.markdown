@@ -1,7 +1,7 @@
 ---
 title:  "Introduction to Gulp JS"
 description: "A step by step tutorial for beginners learning Gulp on Mac"
-## date: 2015-10-3
+## date: 2015-12-23
 ---
 
 
