@@ -1,43 +1,43 @@
 ---
 title:  "What is Time Complexity & Why is it Important?"
+date: 2015-12-14
 description: A brief introduction of time complexity and Big-O with examples for software engineers and new programmers.
-## date: 2015-12-21
 ---
 
 Time complexity. I remember the first time I heard those words and thought "yikes, that's sounds complicated".
-Fortunately, time complexity isn't as difficult to understand as the word makes it seem. In this blog post
+Fortunately, time complexity isn't as difficult to understand as the word makes it seem. In this blog post,
 I hope to explain with examples just enough about time complexity to help you start thinking about your
-code in a new way and seeing the importance it has in software engineering.
+code in a new way and shed light on the importance time complexity has in software engineering.
 
-
-### Why is time complexity important?
-Learning about time complexity helps us better understand and improve the efficiency of our code.
-
-### Big O notation:
-When talking about time complexity, you might also hear the term Big O or Big O notation.
-Big O notation simply refers to the measure of the execution time of an algorithm. Also, under the term Big O, you have
-have specific terms that describe the how long an algorithm takes to execute. You might here an engineer say "I just optimized my quadratic time function,
-to run at linear time." Here are some of types of the Big-O notations we'll be learning about (which are also the most common):
+### What is Time Complexity / Big-O Notation?
+Time complexity simply refers to the worst-case scenario of how slow our code could be running at. Also, when talking about time complexity, you might also hear the term Big O or Big O notation thrown which refers to a specific measure of how long are code takes to run. You might here an engineer say "I just optimized my quadratic time function to run at linear time." Here are some of types of the Big-O notations we'll be learning about (which are also the most common):
 
 - **O(1)**  ----- Constant time
 - **O(n)**  ----- Linear time
 - **O(log n)** - Logarithmic time
 - **O(n^2)**  -- Quadratic time
 
+### Why is time complexity important?
+Learning about time complexity helps us better understand and improve the efficiency of our code. The efficiency of our code becomes extremely important when you are shipping code that users of your product rely on. To put time complexity into context, Google has calculated that if it's search results slowed down by just 1/4 of a second (think time complexity), it would lose about 8 million searches a day!
+
+Lets review time complexity:
 
 ### Constant time: O(1)
 an operation is said to be in constant time if it's time execution always stays the
 same no matter the input size. Examples of constant time operations:
 
 ```js
+//Accessing a value in a array or object by it's key no matter the size
+
 var smallList = [1,2,3,4];
-smallList[3]  // returns 4
+smallList[3]  // returns 4 in constant time
 
-var bigList = [1,2,...,500];
-numbers[499]  // returns 500
+var bigList = {1:"anne", 2:"ben", ... 500:"laura"};
+numbers[500]  // returns laura in constant time
 
 
-//Whats the time complexity of running this function?
+
+//Whats the time complexity of running this function? (See invocation times below)
 function squareEachNumber(array) {
   for (var i = 0; i < 3; i++) {
     array[i] = array[i] * array[i];
@@ -58,8 +58,9 @@ to input size. Examples of linear time operations:
 ```js
 var smallList  = [1,2,3];
 var mediumList = [1,2,3,4,5,6,7]
-var bigList    =  [1,2...,500];
+var bigList    = [1,2...,500];
 
+//What is the time complexity of running this function? (see invocation times below)
 function loopTheList(list){
   var numberOfIterations = 0;
   for(var i = 0; i < list.length; i++){
@@ -67,12 +68,18 @@ function loopTheList(list){
   }
   return numberOfIterations;
 }
-
-
+//Answer: linear time
 loopTheList(smallList);  // 4
 loopTheList(mediumList); // 7
 loopTheList(bigList);    // 500
 
+
+//What is the time complexity of running this loop?
+//Answer: linear time
+var n = 100
+for(var i = 0; i < n; i++){
+  console.log(i)
+}
 ```
 
 
