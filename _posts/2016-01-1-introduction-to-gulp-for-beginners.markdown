@@ -1,7 +1,7 @@
 ---
 title:  "Introduction to Gulp JS"
 description: "A step by step tutorial for beginners learning Gulp on Mac"
-## date: 2015-12-23
+date: 2016-01-01
 ---
 
 
@@ -17,7 +17,7 @@ As Front-end developers we are often told to do a lot of things such as:
 >- and the list goes on ....
 
 
-Doing all of those tasks manually can be cumbersome. Let me introduce you to Gulp.js - a task runner - than can do all of the aforementioned tasks and more for you!
+Doing all of those tasks manually can be cumbersome. Let me introduce you to Gulp.js - a task runner - that can do all of the aforementioned tasks and more for you!
 
 
 
