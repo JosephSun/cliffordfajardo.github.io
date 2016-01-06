@@ -1,22 +1,23 @@
 ---
 title:  "NPM Essentials"
 description: What you need to know about NPM
-## date: 2015-10-1
+date: 2015-09-20
 ---
 
 
 ### Intro to NPM
 
 NPM is a command line drive package manager for JavaScript. It's a great way to easily
-install tools and include other people's code in your projects. NPM is used by hundreds of thousands of web developers today. Companies like Google, Facebook, small companies and just about any experienced web developer is using it today. To browse packages on NPM you can go their main website [npmjs.com](https://www.npmjs.com/)
+install tools and include other people's code in your projects. NPM is used by hundreds of thousands of web developers today. Companies like Google, Facebook, small companies and just about any experienced web developer is using it today. In fact, there were over 123 million package [downloads](https://www.npmjs.com/) in the last day!!
 
 
-### Installing Packages
+### Browsing & Installing Packages
+To browse packages available in NPM you can go their main website [npmjs.com](https://www.npmjs.com/)
 There are two ways methods of installing a NPM package on your computer. They are:
 
-- **installing local packages**: this means the package you are installing is local to your project. Example of applications I usually install locally are libraries like: lodash and jQuery.I don't need these to live on my computer, when I need them I'll fetch them online since they are small.
+- **installing local packages**: this means the package you are installing is local to your project. Example of applications I usually install locally are libraries like: lodash and jQuery.I don't need these to live on my computer, when I need them I'll fetch them online since they are small. `npm install --save-dev nameOfPackage`
 
-- **installing global packages**: this means the package you are installing is saved on your computer and you can use the package's tools directly from the command line (if they are available). Examples of apps that I have installed globally are: Sass, Gulp and http-server. I use these tools from my command line all of the time so they live on my computer.
+- **installing global packages**: this means the package you are installing is saved on your computer and you can use the package's tools directly from the command line (if they are available). Examples of apps that I have installed globally are: Sass, Gulp and http-server. I use these tools from my command line all of the time so they live on my computer. `npm install -g nameOfPackage`
 
 
 ###Where your Packages Live:
