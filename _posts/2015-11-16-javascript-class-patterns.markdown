@@ -1,7 +1,7 @@
 ---
 title:  "JavaScript Class/Instantiation Patterns"
 description: Exploring different class patterns in JavaScript through examples
-date: 2015-10-4
+date: 2015-11-16
 ---
 
 Like in pretty much all things in life, *there are several ways you do things*.

@@ -1,6 +1,6 @@
 ---
 title:  "Mac Developer Productivity Workflow"
-date: 2015-12-21
+date: 2015-10-22
 description: A few of my Alfred programming productivity workflows in action.
 ---
 

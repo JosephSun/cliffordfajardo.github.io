@@ -1,6 +1,6 @@
 ---
 title:  "Thoughts on Programming"
-date: 2015-11-29
+date: 2015-08-29
 description: My observations about programming
 ---
 

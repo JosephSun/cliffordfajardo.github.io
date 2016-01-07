@@ -1,6 +1,6 @@
 ---
 title:  "Data Structures in JavaScript Part 2: Binary Search Tree"
-date:   2015-11-21
+date:   2015-12-22
 description: Exploring data structures in javascript
 ---
 
