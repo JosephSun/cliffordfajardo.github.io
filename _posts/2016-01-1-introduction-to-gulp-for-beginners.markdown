@@ -1,6 +1,6 @@
 ---
-title:  "Introduction to Gulp JS"
-description: "A step by step tutorial for beginners learning Gulp on Mac"
+title:  "Introduction to Gulp JS & Web Performance Optimization"
+description: "A step by step tutorial for learning Gulp on Mac"
 date: 2016-01-01
 ---
 
