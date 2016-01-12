@@ -16,3 +16,6 @@ Below are some of the lessons I've learned over the past few months as a softwar
 - Take things day by day or else you just might overwhelm yourself.
 - Don't feel guilty about asking for help or modifying existing code to meet your own needs. In software development, building on top of foundation others have built will help you a lot. NOTE: I'm not saying don't ever reinvent the wheel.
 - Recognizing patterns in others code will take you a long way.
+
+
+<img src="http://petapixel.com/assets/uploads/2012/11/stackedclouds-5.jpg">
