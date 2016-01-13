@@ -43,5 +43,3 @@ for multi-screen devices, if you use the right classes.
 
 ### Concluding Thoughts
 As you could see from the sites above, you can build quality web sites without having to use frameworks. Don't get me wrong, Bootstrap and other CSS frameworks are amazing because they save you so much time; however, you don't always need to use them. When it comes to building website there's really no wrong answer with choosing between using a framework or not. Use the tools you like best, choose the right tools for the job and go with the flow.
-
-### Resources:
