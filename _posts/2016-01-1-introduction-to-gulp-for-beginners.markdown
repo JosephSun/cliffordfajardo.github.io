@@ -38,11 +38,11 @@ Now, if you look into your folder, you should have a package.json file.
 
 
 Next, we want to run the next two commands in our terminal:
-```shell
+```js
 npm install -g gulp
 ```
 
-```shell
+```js
 npm install gulp --save-dev
 ```
 
@@ -119,12 +119,12 @@ gulp.task('test', function(){
 
 Now to run our task we'll go to our projects root in the terminal and type gulp and the name of the task we want to run like this:
 
-```shell
+```js
 gulp test
 ```
 
 If all went well you should see something like this in your terminal:
-```shell
+```js
 [09:50:00] Using gulpfile ~/Projects/my-website/gulpfile.js
 [09:50:00] Starting 'test'...
 Gulp is running
@@ -154,7 +154,7 @@ gulp.task('concatScripts', function(){
 
 Now in your terminal run the new task we created:
 
-```shell
+```js
 gulp concatScripts
 ```
 
