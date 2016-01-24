@@ -6,6 +6,7 @@ description: A review and list of my favorite atom editor packages
 
 So I've finally published my first youtube video - wohoo. I hadn't really seen any Atom videos which covered very many packages and their use cases, so I decided to make one. What are your thoughts on Atom?
 
+Fun fact: All of my blog posts have been written in Atom with the markdown preview package.
 ## Youtube Video of Packages
 
 <!-- ![](/assets/images/posts/atom-ytThumbnail.png)(https://www.youtube.com/watch?v=cFAzqvYoHJs) -->
