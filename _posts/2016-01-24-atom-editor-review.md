@@ -1,16 +1,21 @@
 ---
 title:  "Atom the Ultimate Text Editor"
 description: A review and list of my favorite atom editor packages
-## date: 2015-11-27
+## date: 2016-01-24
 ---
-#TODO: finish review on atom
+
+So I've finally published my first youtube video - wohoo. I hadn't really seen any Atom videos which covered very many packages and their use cases, so I decided to make one. What are your thoughts on Atom?
+
+## Youtube Video of Packages
+
+<!-- ![](/assets/images/posts/atom-ytThumbnail.png)(https://www.youtube.com/watch?v=cFAzqvYoHJs) -->
+
+[![Atom Text Editor Video](/assets/images/posts/atom-ytThumbnail.png)](https://www.youtube.com/watch?v=cFAzqvYoHJs "Atom Editor: The Ultimate Text Editor")
 
 
-VIDEO IMAGE WITH LINK
+> The list of Packages that I have installed are below:
 
-
-List of Packages that I have installed:
-Themes:
+## Themes:
 - [Atom material UI](https://atom.io/themes/atom-material-ui)
 - [Atom material syntax dark](https://atom.io/themes/atom-material-syntax-dark)
 - [Seti UI](https://atom.io/themes/seti-ui)
@@ -20,7 +25,7 @@ Themes:
 
 
 
-General Purpose Packages:
+## General Purpose Packages:
 
 - [Atom beautify](https://atom.io/packages/atom-beautify)
 - [Atom runner](https://atom.io/packages/atom-runner)
@@ -28,7 +33,7 @@ General Purpose Packages:
 - [Autocomplete project paths](autocomplete-project-paths)
 - [Atom live server](https://atom.io/packages/atom-live-server)
 - [Browser plus](https://atom.io/packages/browser-plus)
-- [Editorconfig](https://atom.io/packages/editorconfig) -- here's my [.editorcongig](https://gist.github.com/cliffordfajardo/3013ea927e284b192957) file
+- [Editorconfig](https://atom.io/packages/editorconfig)
 - [File icons](https://atom.io/packages/file-icons)
 - [File size](https://atom.io/packages/filesize)
 - [Git clone](https://atom.io/packages/git-clone)
@@ -48,11 +53,9 @@ General Purpose Packages:
 - [REST client](https://atom.io/packages/rest-client)
 - [Wakatime](https://atom.io/packages/wakatime)
 
-Other:
-- my [.gitignore](https://gist.github.com/cliffordfajardo/42b4a9759b78df5073e8) file
 
 
-Web development related packages:
+## Web development related packages:
 
 - [Autoclose html](https://atom.io/packages/autoclose-html)
 - [Autoprefixer](https://atom.io/packages/autoprefixer)
@@ -63,7 +66,7 @@ Web development related packages:
 - [Emmet](https://atom.io/packages/emmet)
 - [Javascript snippets (es5)](https://atom.io/packages/javascript-snippets)
 - [Linter htmlhint](https://atom.io/packages/linter-htmlhint)
-- [Linter jshint](https://atom.io/packages/linter-jshint) -- here's my [.jshintrc] file(https://gist.github.com/cliffordfajardo/a309065440917a3d4ba9)
+- [Linter jshint](https://atom.io/packages/linter-jshint)
 - [Linter csslint](https://atom.io/packages/linter-csslint)
 - [Linter jsonlint](https://atom.io/packages/linter-jsonlint)
 - [Livestyle Atom](https://atom.io/packages/livestyle-atom)
@@ -71,40 +74,16 @@ Web development related packages:
 - [Turbo Javascript](https://atom.io/packages/turbo-javascript)
 
 
+## Other:
 
-
-Over the past two months, I've been spending a lot of my programming time inside Github's Atom editor.
-Prior to using Atom, I was a heavy Sublime Text user. I still use Sublime Text
-
-User Friendly
-
-Markdown Preview
-
-Easily Customizable
-
-Contributor Community
-
-Ability to view zip files and open them form editor....zen free mode..view PDFs!! You can basically live in your editor
-
-
-Atom is the modern vim and macs
-Markdown preview is one of the main reasons why I like to use it......
-
-Cool package to drawn in other users...power mode!!!
-use gif
-
-List of packages I use at the end:
-- Git Conflicts
--
-
-Atom takes advantage of modern interfaces...something that most other editors have trouble doing
-Atom runner
-Image resizer
-Script
+- my [.gitignore](https://gist.github.com/cliffordfajardo/42b4a9759b78df5073e8) file
+- my [.editorconfig](https://gist.github.com/cliffordfajardo/3013ea927e284b192957) file
+- my [jshintrc](https://gist.github.com/cliffordfajardo/a309065440917a3d4ba9) file
 
 
 
 
-My minor qualms about Atom:
+
+## My minor qualms about Atom:
 - detaching tabs to form new windows in Atom is sluggish
-- overall editor performance has improved drastically, but it still lags behind most editors.
+- overall editor performance has improved drastically over the past year, but it still lags behind other editors.
