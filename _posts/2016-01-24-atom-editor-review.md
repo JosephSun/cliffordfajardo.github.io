@@ -1,5 +1,5 @@
 ---
-title:  "Atom the Ultimate Text Editor"
+title:  "Atom Editor: The Ultimate Text Editor"
 description: A review and list of my favorite atom editor packages
 ## date: 2016-01-24
 ---
@@ -7,7 +7,7 @@ description: A review and list of my favorite atom editor packages
 So I've finally published my first youtube video - wohoo. I hadn't really seen any Atom videos which covered very many packages and their use cases, so I decided to make one. What are your thoughts on Atom?
 
 Fun fact: All of my blog posts have been written in Atom with the markdown preview package.
-## Youtube Video of Packages
+## Youtube Video of Packages (click image)
 
 <!-- ![](/assets/images/posts/atom-ytThumbnail.png)(https://www.youtube.com/watch?v=cFAzqvYoHJs) -->
 
