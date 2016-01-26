@@ -1,5 +1,5 @@
 ---
-title:  "Atom Editor: The Ultimate Text Editor"
+title:  "Atom Editor: Overview & Package Roundup"
 description: A review and list of my favorite atom editor packages
 ## date: 2016-01-24
 ---
@@ -48,6 +48,7 @@ Fun fact: All of my blog posts have been written in Atom with the markdown previ
 - [Linter](https://atom.io/packages/linter)
 - [Merge conflicts](https://atom.io/packages/merge-conflicts)
 - [Open in browser](https://atom.io/packages/open-in-browser)
+- [Open terminal here](https://atom.io/packages/open-terminal-here)
 - [Pane layout plus](https://atom.io/packages/pane-layout-plus)
 - [Sync Setting](https://atom.io/packages/sync-settings)
 - [Terminal plus](https://atom.io/packages/terminal-plus)
