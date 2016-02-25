@@ -58,7 +58,7 @@ Fun fact: All of my blog posts have been written in Atom with the markdown previ
 
 
 ## Web development related packages:
-
+- [Atom json color](https://atom.io/packages/atom-json-color)
 - [Autoclose html](https://atom.io/packages/autoclose-html)
 - [Autoprefixer](https://atom.io/packages/autoprefixer)
 - [Atom Ternjs](https://atom.io/packages/atom-ternjs)
