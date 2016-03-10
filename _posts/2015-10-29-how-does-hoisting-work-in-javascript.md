@@ -1,7 +1,7 @@
 ---
 title:  "How does Hoisting Work in Javascript?"
 date: 2015-10-29
-description: An example-driven lesson on how javascript hoising works.
+description: An example-driven lesson on how javascript hoisting works.
 ---
 
 ### What is Hoisting mean anyways?
