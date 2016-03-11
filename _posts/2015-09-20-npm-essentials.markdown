@@ -23,7 +23,7 @@ There are two ways methods of installing a NPM package on your computer. They ar
 ###Where your Packages Live:
 To find where your **global packages** live on Mac you can run the following command: `npm list -g --depth=0`. When you run this command you should see something like outputted to your terminal:
 
-{% highlight bash %}
+```sh
 /usr/local/lib
 ├── bower@1.4.1
 ├── generator-test@2.0.2
@@ -33,9 +33,19 @@ To find where your **global packages** live on Mac you can run the following com
 ├── recess@1.1.9
 ├── talentbuddy@0.0.16
 └── yo@1.4.8
-{% endhighlight  %}
+```
 
 To list all of your **local packages** you just need to into our **node_modules** folder and you'll see all of the packages in there.
+
+
+### Speeding Up NPM Install
+
+By disabling the npm install progress bar during downloads, you can significantly cut down on download times. I've experienced up to two times (50%) faster download times & on average one-third (30%) faster download times.
+
+```sh
+# command to turn off progress bar
+npm set progress=false
+```
 
 
 ###More to come:
