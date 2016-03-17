@@ -69,10 +69,10 @@ var a;          // undefined
 var c;          // undefined
 var d;          // undefined
 a = b();        // a = undefined
-c = d();        // c = undefined
+c = d();        // TypeError: d is not a function
 a;              // undefined
 c;              // undefined
-d = function(){ // this is a function expression
+d = function(){ // undefined
   return b();
 }
 ```
