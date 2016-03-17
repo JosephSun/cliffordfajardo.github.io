@@ -108,8 +108,8 @@ Before:
 ```js
 foo();        //??
 var foo = function bar() {
-    var a = 1;
-    console.log(1)
+  var a = 1;
+  console.log(a)
 };
 ```
 
@@ -121,18 +121,24 @@ foo();     //trying to invoke undefined is a type error
 foo = function(){
   var a;
   a = 1;
-  console.log(1);
+  console.log(a);
 }
 ```
 
 
 
-Hoisting when if statements are involved are also interesting. Note: Javascript version 5 & below don't support block-level scope, only function scope. However, the newest version of javascript does support block scopes when using the keyword "let" instead of var. Tip: avoid declaring functions in these if/else,while, switch blocks etc..
+
+
+
+
+<!-- TODO: Correct examples in this section -->
+<!--
+
+Hoisting when if statements are involved are also interesting. Note: Javascript version 5 & below don't support block-level scope, only function scope. However, the newest version of javascript does support block scopes when using the keyword "let" instead of var. Tip: avoid declaring non function expressions in these if/else,while, switch blocks etc..
 
 Before:
 
 ```js
-
 if (true) {
    function aFunc() { console.log( "a" ); }
 }
@@ -142,7 +148,7 @@ else {
 aFunc(); // what will get logged?
 ```
 
-After:
+What the code actually gets interpreted as (After):
 
 ```js
 //there is no block scope only function scope for javascript version < 5
@@ -184,7 +190,42 @@ else {
 }
 aFunc(); // logs "a", what we wanted!
 ```
+-->
 
+
+
+
+
+
+<!-- TODO: Finish section -->
+
+<!-- Hoisting with precedence involved:
+Before:
+
+```js
+var a = 1;
+function b() {
+    a = 10;
+    return;
+    function a() {}
+}
+b();
+console.log(a);
+```
+
+After:
+
+```js
+function b() {
+  function a() {}
+  a = 10;
+  return;  
+}
+var a;
+a = 1
+b();
+console.log(a); //1
+``` -->
 
 
 
