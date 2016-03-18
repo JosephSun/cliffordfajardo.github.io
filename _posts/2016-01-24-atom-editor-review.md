@@ -50,6 +50,7 @@ Fun fact: All of my blog posts have been written in Atom with the markdown previ
 - [Open in browser](https://atom.io/packages/open-in-browser)
 - [Open terminal here](https://atom.io/packages/open-terminal-here)
 - [Pane layout plus](https://atom.io/packages/pane-layout-plus)
+- [Smart tags](https://atom.io/packages/smart-tags)
 - [Sync Setting](https://atom.io/packages/sync-settings)
 - [Terminal plus](https://atom.io/packages/terminal-plus)
 - [REST client](https://atom.io/packages/rest-client)
