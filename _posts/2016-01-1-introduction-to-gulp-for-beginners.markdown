@@ -131,7 +131,7 @@ Gulp is running
 [09:50:00] Finished 'test' after 165 μs
 ```
 
-Great, you've now created your first gulp task now lets concatenate our CSS and our JavaScript files:
+Great, you've now created your first gulp task now lets concatenate our CSS our JavaScript files:
 
 ### Concatening files javascript files
 Now we're going to merge all of our javaScript files into just one file for production. First we'll need to install a package called `gulp-concat`. So in your terminal run `npm install gulp-concat --save-dev`. Now your package.json's dependencies should have gulp-concat. Now let's update our **gulpfile.js**.
